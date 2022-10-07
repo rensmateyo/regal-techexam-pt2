@@ -6,15 +6,15 @@
 ##How to use
 1. After installing the nodes, run npm run dev
 2. To use run this url on postman, replace the values set on the parameter to your desired value (Ex: {color_value} to red)
-  ###Get all animal data
+  ##Get all animal data
   - GET http://localhost:6060/all/animal
-  ###Get a random animal data
+  ##Get a random animal data
   - GET http://localhost:6060/random/animal
-  ###Insert a new animal data
+  ##Insert a new animal data
   - POST http://localhost:6060/insert/animal?color={color_value}&animal={animal_value}
-  ###Update an existing animal data(Both value on find_data should be true)
+  ##Update an existing animal data(Both value on find_data should be true)
   - PUT http://localhost:6060/update/animal?find_data={"color": "{find_old_color_value}", "animal": "{find_old_animal_value}"}&animal={new_animal_value}&color={new_color_value}
-  ###Delete an existing animal data (Both value should be true)
+  ##Delete an existing animal data (Both value should be true)
   - DELETE http://localhost:6060/delete/animal?color={color_value}&animal={animal_value}
 
 ##How long it took
