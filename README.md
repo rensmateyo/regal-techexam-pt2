@@ -18,7 +18,7 @@
   - DELETE http://localhost:6060/delete/animal?color={color_value}&animal={animal_value}
 
 ##How long it took
-- It took 8 hours to understand the flow of the app and remodel it unto MVC style
+- It took 8 hours to understand the flow of the app and remodel it unto MVC style. Also includes bug fixing
 
 ##What you had to research
 - I studied and run the project found here https://www.section.io/engineering-education/how-to-create-a-simple-rest-api-using-typescript-and-nodejs/ then made it MVC style.
