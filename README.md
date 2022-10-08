@@ -31,4 +31,8 @@
 ##Can you give me an example of how you would delete a color from the database?
 - As there is no ID on the object, I think I would stil get all the data and iterate it to find the specific color to delete
 
-
+#UPDATE ON README 10/8/22 (AFTER 3 DAYS DEADLINE) Just for logging purposes, you can ignore this
+##Things I would change for better code
+- Refactor repeating code like the one finding the array key for matching values
+- Put values of insert and update in the body instead of url parameter
+- Add try catch on the async functions and await some of the code so as to be sure to get the value
